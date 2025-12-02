@@ -20,8 +20,8 @@ sui client publish
 
 ```bash
 sui client ptb \
-  --move-call <PACKAGE_ID>::registry::create_object \
+  --move-call 0x826ec0f75ccb5744f49327d7b2f1b78ed96dbcecdd09ef3d512636bf023c77f3::registry::create_object \
   --assign obj \
-  --move-call <PACKAGE_ID>::registry::emit_epoch obj \
-  --move-call <PACKAGE_ID>::registry::destroy_object obj
+  --move-call 0x826ec0f75ccb5744f49327d7b2f1b78ed96dbcecdd09ef3d512636bf023c77f3::registry::emit_epoch obj \
+  --move-call 0x826ec0f75ccb5744f49327d7b2f1b78ed96dbcecdd09ef3d512636bf023c77f3::registry::destroy_object obj
 ```
